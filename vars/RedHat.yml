@@ -1,0 +1,4 @@
+---
+
+snmp_mibs__packages:
+  - net-snmp-libs

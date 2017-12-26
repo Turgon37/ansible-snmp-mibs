@@ -1,0 +1,8 @@
+---
+# tasks file for snmp-mibs
+
+- name: Install SNMP packages
+  package:
+    name:  '{{ item }}'
+    state: present
+  with_items: '{{ snmp_mibs__packages }}'
