@@ -9,3 +9,6 @@ snmp_mibs__mibs_directory: /usr/share/snmp/mibs/
 
 # List of MIBS folder to install from files/mibs to the host
 snmp_mibs__install_sets: []
+
+# List of service to restart to apply new MIBS
+snmp_mibs__restart_services: []
